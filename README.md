@@ -19,6 +19,7 @@ forex_modular_project/
 │
 ├── config.py                 # Central configuration
 ├── main.py                   # Entry point to run the pipeline
+├── requirements.txt          # 
 │
 ├── utils/
 │   ├── data_loader.py        # Load and preprocess raw data
@@ -28,6 +29,7 @@ forex_modular_project/
 │
 └── data/
     └── AUDUSD.csv            # Example CSV (not included in this repo)
+
 ```
 
 ## 🚀 How to Run
