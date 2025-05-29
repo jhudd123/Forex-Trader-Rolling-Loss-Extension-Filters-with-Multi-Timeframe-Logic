@@ -57,8 +57,7 @@ After training, the script will print a classification report and metrics on tes
 
 ## 🛠️ Future Work
 
-- Add backtesting for trade simulation
-- Parameter tuning
+- Additional parameter tuning
 - Integrate additional currency pairs or timeframes
 
 ## 📄 License
