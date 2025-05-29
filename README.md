@@ -1,6 +1,6 @@
 # Forex Trader: Rolling Loss & Extension Filters with Multi-Timeframe Logic
 
-This project demonstrates a simple yet powerful machine learning-based trading strategy using multi-timeframe logic and custom technical indicators. It is implemented in a modular format for clarity and scalability.
+This project demonstrates a simple machine learning-based trading strategy using multi-timeframe logic and custom technical indicators. It is implemented in a modular format for clarity and scalability.
 
 ## 📌 Project Overview
 
