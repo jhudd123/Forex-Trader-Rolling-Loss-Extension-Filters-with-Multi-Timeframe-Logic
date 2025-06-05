@@ -72,29 +72,30 @@ You can easily adjust the following:
 
 🧪 Backtest windows and filter thresholds
 
+```text
 📂 Project Structure
 
 Forex Trader: Rolling Loss & Extension Filters with Multi-Timeframe Logic/
 │
-├── main.py                                # Entry point for the strategy pipeline
-├── config.py                              # Global config values (e.g., RANDOM_SEED)
-├── requirements.txt                       # Core dependencies
-├── README.md                              # You're reading this
+├── main.py                          # Entry point for the strategy pipeline  
+├── config.py                        # Global config values (e.g., RANDOM_SEED)  
+├── requirements.txt                 # Core dependencies  
+├── README.md                        # You're reading this  
 │
-├── final_models_AUDUSD.joblib             # Trained ensemble model (LightGBM)
-├── optimized_params_AUDUSD.joblib         # Saved Optuna hyperparameters
-├── positive_combinationsAUDUSD.joblib     # Positive trend/regime combos
+├── final_models_AUDUSD.joblib       # Trained ensemble model (LightGBM)  
+├── optimized_params_AUDUSD.joblib   # Saved Optuna hyperparameters  
+├── positive_combinationsAUDUSD.joblib  # Positive trend/regime combos  
 │
-├── test_equity_curve.png                  # Output: test set equity curve plot
-├── test_metrics_summary.txt               # Output: strategy performance metrics
+├── test_equity_curve.png            # Output: test set equity curve plot  
+├── test_metrics_summary.txt         # Output: strategy performance metrics  
 │
-├── data/                                  # Optional: raw CSV input or staging folder
-├── src/                                   # Source code
-│   ├── features/                          # Feature engineering logic
-│   ├── models/                            # Training, simulation, optimization
-│   └── utils/                             # Data loaders, metrics, drawdown functions
+├── data/                            # Optional: raw CSV input or staging folder  
+├── src/                             # Source code  
+│   ├── features/                    # Feature engineering logic  
+│   ├── models/                      # Training, simulation, optimization  
+│   └── utils/                       # Data loaders, metrics, drawdown functions  
 │
-└── .venv/                                 # Virtual environment (excluded via .gitignore)
+└── .venv/                           # Virtual environment (excluded via .gitignore)  
 
 🚀 How to Run
 
