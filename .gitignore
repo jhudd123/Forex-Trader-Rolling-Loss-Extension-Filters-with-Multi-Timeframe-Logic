@@ -1,23 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
 # Virtual environment
 .venv/
-__pycache__/
-*.pyc
 
-# MetaTrader/MT5
-*.hst
-*.log
-*.dat
-
-# Jupyter / VSCode
-.ipynb_checkpoints/
-.vscode/
-
-# Output files
-*.png
-*.txt
-*.pkl
+# Model binaries
 *.joblib
 
-# OS-specific
-.DS_Store
-Thumbs.db
+# Output files (optional)
+test_equity_curve.png
+test_metrics_summary.txt

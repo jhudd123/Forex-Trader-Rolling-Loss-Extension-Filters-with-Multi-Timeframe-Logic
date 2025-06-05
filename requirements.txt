@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+lightgbm
+optuna
+ta-lib
+MetaTrader5
+fbm
+hurst
+joblib
+statsmodels 
+imbalanced-learn
